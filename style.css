@@ -98,3 +98,10 @@ nav ul li a:hover{
     background-color: #84ec8f;
     transform: scale(1.2);
 }
+
+.account{
+    align-items: center;
+    display: flex;
+    
+   
+}
