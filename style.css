@@ -29,16 +29,21 @@ nav ul li {
 
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-weight: 600;
 }
-
+nav ul li a:hover{
+    color: #84ec8f;
+}
 .home {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
+    padding-left: 150px;
 }
 
 .home-img img {
@@ -54,7 +59,7 @@ nav ul li a {
     font-size: 50px;
     
 }
-.home-text h1 span{
+ span{
     color: #0c6215;
 }
 
@@ -71,4 +76,25 @@ nav ul li a {
 .btn:hover{
     color:#042b08;
     background-color: rgb(120, 239, 159);
+}
+
+.container{
+    display: flex;
+    position: relative;
+    
+}
+
+.card{
+    /* padding: 20px; */
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+    transition: .3s;
+   
+}
+.card:hover{
+    border-color: #042b08;
+    background-color: #84ec8f;
+    transform: scale(1.2);
 }
