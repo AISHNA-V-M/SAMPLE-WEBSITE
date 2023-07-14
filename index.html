@@ -23,7 +23,10 @@
                     <i class="bi bi-cart"></i>
                          CART
                 </a></li>
-                <li><a href="#account"><i class="bi bi-person-fill"></i> ACCOUNT</a></li>
+                <li><i class="bi bi-person-fill"></i> 
+                <a href="#account">LOGIN</a>
+              
+              </li>
                
              </ul>
         </nav>
@@ -235,10 +238,36 @@
         <div><img src="img/profile.jpg" alt=""></div>
 
        <div>
-           <button class="btn btn-primary">Log in</button><br><br>
-           <p>New User ?</p>
-           <button class="btn btn-primary">Register Now</button>
+        <form action="">
+          <input type="text" placeholder="Email/number">
+          <br><br>
+          <input type="password" placeholder="password">
+          <br><br>
+          <button class="btn">Login</button>
+          <br><br>
+          <a href=""><span>forgot password ?</span></a>
+          <br><br>
+          New Member ? 
+          <button class="btn"><a href="#register">Register Now</a></button>
+        </form>
        </div>
+    </section>
+    
+    <section id="register" border="1" class="register">
+      <form action="" border="1">
+        FIRST NAME : <input type="text">
+        <br><br>
+        LAST NAME :  <input type="text"><br><br>
+        GENDER : <input type="radio">Male
+        <input type="radio">Female
+        <input type="radio">Other
+        <br>
+        <br>
+        CREATE PASSWORD : <input type=password"><br><br>
+        REPEAT PASSWORD : <input type="password">
+       <br> <br>
+     <button class="btn">Register</button>
+      </form>
     </section>
 
 </body>

@@ -38,6 +38,13 @@ nav ul li a {
 nav ul li a:hover{
     color: #84ec8f;
 }
+select{
+    background-color: #042b08;
+    border-radius: 5px 5px;
+    color: white;
+    border: none;
+}
+
 .home {
     width: 100%;
     display: flex;
@@ -104,4 +111,22 @@ nav ul li a:hover{
     display: flex;
     
    
+}
+input{
+    border-color: #0c6215;
+}
+.register{
+    margin: 30%;
+    
+}
+
+.register form{
+    border: 1px solid #84ec8f;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+.account  a{
+    text-decoration: none;
+    color: white;
 }
